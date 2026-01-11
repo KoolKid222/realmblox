@@ -1,0 +1,27 @@
+# Roblox Studio
+*.rbxlx.lock
+*.rbxl.lock
+*.rbxl
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Claude
+.claude/
+
+# Binaries (download via aftman)
+rojo.exe
+*.exe
+
+# Auto Claude data directory
+.auto-claude/

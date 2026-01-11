@@ -1,0 +1,34 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  },
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)",
+      "Glob(./**)",
+      "Grep(./**)",
+      "Read(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX/**)",
+      "Write(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX/**)",
+      "Edit(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX/**)",
+      "Glob(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX/**)",
+      "Grep(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX/**)",
+      "Read(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX\\.auto-claude\\specs\\002-can-you-see-the-files-in-my-project/**)",
+      "Write(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX\\.auto-claude\\specs\\002-can-you-see-the-files-in-my-project/**)",
+      "Edit(C:\\Users\\easy1\\OneDrive\\Desktop\\REALM BLOX\\.auto-claude\\specs\\002-can-you-see-the-files-in-my-project/**)",
+      "Bash(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "mcp__context7__resolve-library-id(*)",
+      "mcp__context7__get-library-docs(*)",
+      "mcp__graphiti-memory__search_nodes(*)",
+      "mcp__graphiti-memory__search_facts(*)",
+      "mcp__graphiti-memory__add_episode(*)",
+      "mcp__graphiti-memory__get_episodes(*)",
+      "mcp__graphiti-memory__get_entity_edge(*)"
+    ]
+  }
+}

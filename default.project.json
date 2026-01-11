@@ -1,0 +1,49 @@
+{
+  "name": "RealmBlox",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "CharacterSelect": {
+        "$path": "src/ui/CharacterSelect.client.lua"
+      },
+      "DeathScreen": {
+        "$path": "src/ui/DeathScreen.client.lua"
+      },
+      "HUDController": {
+        "$path": "src/ui/HUDController.client.lua"
+      },
+      "AdminPanel": {
+        "$path": "src/ui/AdminPanel.client.lua"
+      },
+      "LoadingScreen": {
+        "$path": "src/ui/LoadingScreen.client.lua"
+      }
+    }
+  }
+}
